@@ -1,0 +1,9 @@
+GET http://localhost:3000/modules-project
+###
+
+POST http://localhost:3000/modules-project
+Content-Type: application/json
+
+{
+    "name": "teste"
+}

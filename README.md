@@ -21,7 +21,7 @@ Cria e executa o container mysql
 Cria e executa o container com o back-end da api.
 
 ```bash
-  docker run -d -it --rm -p 3000:3000 -u node --network pfa --name pfabackend eduardorfernandes/pfa-backend-desafio-prod
+  docker run -d --rm -p 3000:3000 --network pfa --name pfabackend eduardorfernandes/pfa-backend-desafio-prod
 ```
 
 Cria e executa o container com o servidor nginx
